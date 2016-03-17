@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using AlgorithmLibraries;
 
 namespace Main
 {
@@ -23,6 +24,47 @@ namespace Main
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void insertionSortBtn_Click(object sender, RoutedEventArgs e)
+        {
+            List<string> toSort = new List<string> {
+                                      "test",
+                                      "fun",
+                                      "James",
+                                      "wtf",
+                                      "alpha",
+                                      "dictionary",
+                                      "Julie",
+                                      "Sophie",
+                                      "my love",
+                                      "beautiful",
+                                      "Amazon",
+                                      "Google",
+                                      "enough to test"
+                                  };
+
+            bool success = Sort.InsertionSort(ref toSort);
+            if (success)
+            {
+                StringBuilder sb = new StringBuilder();
+
+                foreach (string sorted in toSort)
+                {
+                    sb.Append(sorted + ", ");
+                }
+
+                MessageBox.Show(sb.ToString());
+            }
+            else
+            {
+                MessageBox.Show("sort failed");
+            }
+        }
+
+        private void mergeSortBtn_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

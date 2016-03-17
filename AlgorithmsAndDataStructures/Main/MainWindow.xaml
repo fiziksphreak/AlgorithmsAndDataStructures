@@ -2,7 +2,14 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Left">
+            <Button DockPanel.Dock="Top" Name="insertionSortBtn" Click="insertionSortBtn_Click">Insertion Sort</Button>
+            <Button DockPanel.Dock="Top" Name="mergeSortBtn" Click="mergeSortBtn_Click">Merge Sort</Button>
+            <Button DockPanel.Dock="Top"></Button>
+        </DockPanel>
+        <DockPanel DockPanel.Dock="Right">
+            
+        </DockPanel>
+    </DockPanel>
 </Window>
