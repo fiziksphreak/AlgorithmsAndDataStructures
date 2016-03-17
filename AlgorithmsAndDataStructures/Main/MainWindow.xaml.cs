@@ -64,7 +64,17 @@ namespace Main
 
         private void mergeSortBtn_Click(object sender, RoutedEventArgs e)
         {
+            List<int> toSort = new List<int>{ 3, 5, 20, 60, 8, 1, 100, 54, 22, 14 };
+            toSort = Sort.MergeSort(toSort);
 
+            StringBuilder sb = new StringBuilder();
+
+            foreach (int sorted in toSort)
+            {
+                sb.Append(sorted + ", ");
+            }
+
+            MessageBox.Show(sb.ToString());
         }
     }
 }
