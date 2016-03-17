@@ -1,5 +1,0 @@
-C:\Users\JamesHoffman\Documents\Visual Studio 2013\Projects\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\AlgorithmLibraries\bin\Debug\AlgorithmLibraries.dll
-C:\Users\JamesHoffman\Documents\Visual Studio 2013\Projects\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\AlgorithmLibraries\bin\Debug\AlgorithmLibraries.pdb
-C:\Users\JamesHoffman\Documents\Visual Studio 2013\Projects\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\AlgorithmLibraries\obj\Debug\AlgorithmLibraries.dll
-C:\Users\JamesHoffman\Documents\Visual Studio 2013\Projects\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\AlgorithmLibraries\obj\Debug\AlgorithmLibraries.pdb
-C:\Users\JamesHoffman\Documents\Visual Studio 2013\Projects\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\AlgorithmLibraries\obj\Debug\AlgorithmLibraries.csprojResolveAssemblyReference.cache
